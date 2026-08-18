@@ -1,3 +1,4 @@
+/* Archive Modernism: chalk-paper field, ink-black text, indigo controls, and vermilion evidence accents. */
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -43,135 +44,112 @@
 }
 
 :root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
+  --primary: oklch(0.27 0.052 269);
+  --primary-foreground: oklch(0.98 0.004 89);
+  --sidebar-primary: oklch(0.27 0.052 269);
+  --sidebar-primary-foreground: oklch(0.98 0.004 89);
+  --chart-1: oklch(0.75 0.08 269);
+  --chart-2: oklch(0.56 0.1 269);
+  --chart-3: oklch(0.42 0.08 269);
+  --chart-4: oklch(0.55 0.16 30);
+  --chart-5: oklch(0.3 0.05 269);
+  --radius: 0.15rem;
+  --background: oklch(0.958 0.007 87);
+  --foreground: oklch(0.27 0.052 269);
+  --card: oklch(0.978 0.006 89);
+  --card-foreground: oklch(0.27 0.052 269);
+  --popover: oklch(0.978 0.006 89);
+  --popover-foreground: oklch(0.27 0.052 269);
+  --secondary: oklch(0.913 0.009 87);
+  --secondary-foreground: oklch(0.34 0.04 269);
+  --muted: oklch(0.916 0.008 87);
+  --muted-foreground: oklch(0.52 0.016 266);
+  --accent: oklch(0.916 0.008 87);
+  --accent-foreground: oklch(0.27 0.052 269);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
+  --border: oklch(0.27 0.052 269 / 13%);
+  --input: oklch(0.27 0.052 269 / 13%);
+  --ring: oklch(0.55 0.16 30);
+  --sidebar: oklch(0.958 0.007 87);
+  --sidebar-foreground: oklch(0.27 0.052 269);
+  --sidebar-accent: oklch(0.916 0.008 87);
+  --sidebar-accent-foreground: oklch(0.27 0.052 269);
+  --sidebar-border: oklch(0.27 0.052 269 / 13%);
+  --sidebar-ring: oklch(0.55 0.16 30);
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
+  --primary: oklch(0.75 0.08 269);
+  --primary-foreground: oklch(0.2 0.04 269);
+  --background: oklch(0.2 0.035 269);
+  --foreground: oklch(0.93 0.008 87);
+  --card: oklch(0.24 0.04 269);
+  --card-foreground: oklch(0.93 0.008 87);
+  --popover: oklch(0.24 0.04 269);
+  --popover-foreground: oklch(0.93 0.008 87);
+  --secondary: oklch(0.28 0.04 269);
+  --secondary-foreground: oklch(0.85 0.01 87);
+  --muted: oklch(0.28 0.04 269);
+  --muted-foreground: oklch(0.72 0.02 269);
+  --accent: oklch(0.28 0.04 269);
+  --accent-foreground: oklch(0.93 0.008 87);
   --destructive: oklch(0.704 0.191 22.216);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
+  --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  --ring: oklch(0.55 0.16 30);
+  --sidebar: oklch(0.24 0.04 269);
+  --sidebar-foreground: oklch(0.93 0.008 87);
+  --sidebar-accent: oklch(0.28 0.04 269);
+  --sidebar-accent-foreground: oklch(0.93 0.008 87);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.55 0.16 30);
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
+  * { @apply border-border outline-ring/50; }
+  html { scroll-behavior: smooth; }
   body {
     @apply bg-background text-foreground;
+    font-family: "Manrope", sans-serif;
+    font-feature-settings: "ss01" 1, "cv02" 1;
+    -webkit-font-smoothing: antialiased;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
   [type="button"]:not(:disabled),
   [type="submit"]:not(:disabled),
   [type="reset"]:not(:disabled),
-  a[href],
-  select:not(:disabled),
-  input[type="checkbox"]:not(:disabled),
-  input[type="radio"]:not(:disabled) {
-    @apply cursor-pointer;
-  }
+  a[href], select:not(:disabled), input[type="checkbox"]:not(:disabled), input[type="radio"]:not(:disabled) { @apply cursor-pointer; }
 }
 
 @layer components {
-  /**
-   * Custom container utility that centers content and adds responsive padding.
-   *
-   * This overrides Tailwind's default container behavior to:
-   * - Auto-center content (mx-auto)
-   * - Add responsive horizontal padding
-   * - Set max-width for large screens
-   *
-   * Usage: <div className="container">...</div>
-   *
-   * For custom widths, use max-w-* utilities directly:
-   * <div className="max-w-6xl mx-auto px-4">...</div>
-   */
-  .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem; /* 16px - mobile padding */
-    padding-right: 1rem;
-  }
+  .font-serif { font-family: "DM Serif Display", Georgia, serif; }
+  .paper-noise { background-image: radial-gradient(rgba(24, 33, 59, .15) .55px, transparent .55px), linear-gradient(100deg, transparent, rgba(24, 33, 59, .035), transparent); background-size: 9px 9px, 100% 100%; mix-blend-mode: multiply; }
+  .nav-link { transition: color 160ms cubic-bezier(.23, 1, .32, 1); }
+  .nav-link:hover { color: #d84a3a; }
+  .cta-button { display: inline-flex; align-items: center; gap: .55rem; border: 1px solid #18213b; background: #18213b; color: #f7f4ed; padding: .75rem 1rem; font-weight: 800; text-transform: uppercase; letter-spacing: .11em; font-size: 10px; transition: transform 160ms cubic-bezier(.23, 1, .32, 1), background-color 160ms cubic-bezier(.23, 1, .32, 1), border-color 160ms cubic-bezier(.23, 1, .32, 1); }
+  .cta-button:hover { background: #d84a3a; border-color: #d84a3a; }
+  .cta-button:active { transform: scale(.97); }
+  .quiet-button { display: inline-flex; align-items: center; gap: .45rem; border-bottom: 1px solid #18213b; color: #18213b; padding: .65rem 0; font-weight: 800; text-transform: uppercase; letter-spacing: .11em; font-size: 10px; transition: color 160ms cubic-bezier(.23, 1, .32, 1), border-color 160ms cubic-bezier(.23, 1, .32, 1), transform 160ms cubic-bezier(.23, 1, .32, 1); }
+  .quiet-button:hover { color: #d84a3a; border-color: #d84a3a; }
+  .quiet-button:active { transform: scale(.97); }
+  .section-kicker { color: #d84a3a; font-size: 10px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+  .section-heading { margin-top: 1rem; font-family: "DM Serif Display", Georgia, serif; font-size: clamp(2.6rem, 4.6vw, 4.9rem); line-height: .94; letter-spacing: -.055em; color: #18213b; }
+  .issue-card { display: flex; width: 100%; gap: .7rem; padding: .8rem; color: #5c6371; transition: transform 180ms cubic-bezier(.23, 1, .32, 1), color 180ms cubic-bezier(.23, 1, .32, 1), background-color 180ms cubic-bezier(.23, 1, .32, 1); }
+  .issue-card:hover { transform: translateX(3px); background: rgba(247, 244, 237, .55); color: #18213b; }
+  .issue-card-active { background: #18213b; color: #f7f4ed; box-shadow: 5px 5px 0 #d84a3a; }
+  .issue-card-active:hover { background: #18213b; color: #f7f4ed; }
+  .evidence-chip { display: flex; min-width: 0; align-items: center; gap: .55rem; border: 1px solid rgba(24, 33, 59, .14); background: #f0ede6; padding: .65rem; transition: transform 180ms cubic-bezier(.23, 1, .32, 1), border-color 180ms cubic-bezier(.23, 1, .32, 1), box-shadow 180ms cubic-bezier(.23, 1, .32, 1); }
+  .evidence-chip:hover { transform: translateY(-3px); border-color: #d84a3a; box-shadow: 4px 4px 0 rgba(216, 74, 58, .23); }
+  .evidence-index { display: flex; height: 1.5rem; width: 1.5rem; flex: none; align-items: center; justify-content: center; background: #d84a3a; color: white; font-size: 9px; font-weight: 800; }
+  .benchmark-card { display: flex; min-height: 155px; flex-direction: column; justify-content: space-between; border: 1px solid rgba(255,255,255,.2); background: rgba(255,255,255,.055); padding: 1.3rem; transition: transform 180ms cubic-bezier(.23, 1, .32, 1), background-color 180ms cubic-bezier(.23, 1, .32, 1); }
+  .benchmark-card:hover { transform: translateY(-4px); background: rgba(255,255,255,.1); }
+  .bench-label { font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #d84a3a; }
+}
 
-  .flex {
-    min-height: 0;
-    min-width: 0;
-  }
-
-  @media (min-width: 640px) {
-    .container {
-      padding-left: 1.5rem; /* 24px - tablet padding */
-      padding-right: 1.5rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .container {
-      padding-left: 2rem; /* 32px - desktop padding */
-      padding-right: 2rem;
-      max-width: 1280px; /* Standard content width */
-    }
-  }
+@media (prefers-reduced-motion: no-preference) {
+  .issue-card-active { animation: selectedCard .26s cubic-bezier(.23, 1, .32, 1); }
+  @keyframes selectedCard { from { opacity: .45; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
 }
